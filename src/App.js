@@ -8,7 +8,7 @@ function Square({value, onSquareClick}) {
   );
 }
 
-export default function Board() {
+export default function App() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
